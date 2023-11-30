@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Realistic Blur Synthesis for Learning Image Deblurring"
+date:   2022-07-26 22:21:59 +00:00
+image: /images/rsblur_teaser.png
+categories: research
+author: "Jaesung Rim"
+authors: "<strong>Jaesung Rim</strong>, Geonung Kim, Jungeon Kim, Junyong Lee, Seungyong Lee, Sunghyun Cho"
+venue: "ECCV, 2022"
+project: http://cg.postech.ac.kr/research/rsblur
+paper: http://cg.postech.ac.kr/research/rsblur/assets/pdf/RSBlur.pdf
+code: https://github.com/rimchang/RSBlur
+---
+

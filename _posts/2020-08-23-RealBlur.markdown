@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms"
+date:   2020-08-23 22:21:59 +00:00
+image: /images/realblur_teaser.png
+categories: research
+author: "Jaesung Rim"
+authors: "<strong>Jaesung Rim</strong>, Haeyun Lee, Jucheol Won, Sunghyun Cho"
+venue: "ECCV, 2020"
+project: http://cg.postech.ac.kr/research/realblur/
+paper: http://cg.postech.ac.kr/research/RealBlur/assets/pdf/RealBlur_eccv2020.pdf
+code: https://github.com/rimchang/RealBlur
+---
+

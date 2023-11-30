@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Human Pose Estimation in Extremely Low-Light Conditions"
+date:   2023-06-18 22:21:59 +00:00
+image: /images/exlpose_teaser.png
+categories: research
+author: "Jaesung Rim"
+authors: "Sohyun Lee*, <strong>Jaesung Rim*</strong>, Boseung Jeong, Geonu Kim, ByungJu Woo, Haechan Lee, Sunghyun Cho, Suha Kwak (*equal contribution)"
+venue: "CVPR, 2023"
+project: http://cg.postech.ac.kr/research/ExLPose/
+paper: http://cg.postech.ac.kr/research/ExLPose/assets/pdf/human_pose_estimation_in_extre-Camera-ready%20PDF.pdf
+code: https://github.com/sohyun-l/ExLPose
+---
+

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Iterative Filter Adaptive Network for Single Image Defocus Deblurring"
+date:   2021-06-19 22:21:59 +00:00
+image: /images/ifan_teaser.png
+categories: research
+author: "Jaesung Rim"
+authors: "Junyong Lee, Hyeongseok Son, <strong>Jaesung Rim</strong>, Sunghyun Cho, Seungyong Lee"
+venue: "CVPR, 2021"
+project: https://junyonglee.me/projects/IFAN
+paper: https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Iterative_Filter_Adaptive_Network_for_Single_Image_Defocus_Deblurring_CVPR_2021_paper.pdf
+code: https://github.com/codeslake/IFAN
+---
+
