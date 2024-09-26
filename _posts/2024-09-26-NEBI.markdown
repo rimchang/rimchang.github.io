@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Burst Image Super-Resolution with Base Frame Selection"
+date:   2024-04-24 22:21:59 +00:00
+image: /images/NEBI.png
+categories: research
+author: "Jaesung Rim"
+authors: "Sanghyun Kim*, Min Jung Lee*, Woohyeok Kim, Deunsol Jung, <strong>Jaesung Rim</strong>, Sunghyun Cho, Minsu Cho (*equal contribution)"
+venue: "NTIRE CVPRW, 2024"
+project: https://postech-cvlab.github.io/Burst_FSN/
+paper: https://arxiv.org/pdf/2406.17869
+---
+
