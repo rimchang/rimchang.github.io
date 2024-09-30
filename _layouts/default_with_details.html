@@ -12,6 +12,42 @@
     gtag('config', 'G-E00L9PT3V9');
        
   </script>
+  <style>
+    /* 기본적으로 excerpt 숨기기 */
+    .excerpt {
+      display: none; /* 기본적으로 숨겨진 상태 */
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* 부드러운 전환 효과 */
+      position: absolute;
+      background-color: #ffffff; /* 팝업 배경을 흰색으로 설정 */
+      color: #333; /* 글자 색은 진한 회색 */
+      padding: 15px; /* 충분한 내부 여백 */
+      border-radius: 10px; /* 모서리를 둥글게 */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 부드러운 그림자 */
+      z-index: 10;
+      transform: translateY(10px); /* 부드러운 슬라이드 효과 */
+    }
+
+    /* td에 relative 추가해 excerpt가 td 안에 고정되도록 설정 */
+    td {
+      position: relative;
+    }
+
+    /* 호버 시 팝업이 보이고 살짝 올라오도록 설정 */
+    .post-hover:hover .excerpt {
+      display: block;
+      opacity: 1;
+      transform: translateY(0); /* 슬라이드 효과 */
+    }
+
+    /* 팝업창이 더 세련되게 보이도록 추가적인 스타일링 */
+    .excerpt p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  </style>
+
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -66,6 +102,7 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Publications</h2>
+              <p>Please hover your mouse over each paper to see its explanation.</p>
             </td>
           </tr>
         </table>
@@ -75,9 +112,9 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           {% if post.highlight %}
-          <tr bgcolor="#ffffd0">
+          <tr class="post-hover {{ post.title | slugify }}" bgcolor="#ffffd0">
           {% else %}
-          <tr>
+          <tr class="post-hover {{ post.title | slugify }}">
           {% endif %}
             <td style="padding:2.5%;width:30%;vertical-align:middle;min-width:120px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -106,8 +143,8 @@
                /
               <a href="{{post.code}}">Code</a> 
               {% endif %}
-              <p></p>
-              {{ post.excerpt }}
+              <!-- 기본적으로 숨겨진 excerpt를 hover 시 보여줌 -->
+              <div class="excerpt"><p>{{ post.excerpt }}</p></div>
             </td>
           </tr>
           {% endif %}

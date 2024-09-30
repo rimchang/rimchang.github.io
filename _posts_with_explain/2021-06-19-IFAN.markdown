@@ -12,3 +12,4 @@ paper: https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Iterative_Filte
 code: https://github.com/codeslake/IFAN
 ---
 
+We proposed IFAN (Iterative Filter Adaptive Network), which estimates adaptive deblurring filters from blurred images.

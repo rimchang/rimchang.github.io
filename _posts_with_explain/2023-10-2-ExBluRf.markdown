@@ -10,3 +10,4 @@ venue: "ICCV, 2023"
 paper: https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_ExBluRF_Efficient_Radiance_Fields_for_Extreme_Motion_Blurred_Images_ICCV_2023_paper.pdf
 ---
 
+We proposed an efficient NeRF framework for blurred images, which formulates a blurred image by a trajectory of latent camera motion. We also presented a real-world dataset for NeRF from blurred images.
