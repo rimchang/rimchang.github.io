@@ -10,5 +10,7 @@ venue: "ECCV, 2022"
 project: http://cg.postech.ac.kr/research/rsblur
 paper: http://cg.postech.ac.kr/research/rsblur/assets/pdf/RSBlur.pdf
 code: https://github.com/rimchang/RSBlur
+highlight: true
 ---
 
+Deblurring networks trained on synthetic datasets do not perform well on real-world images. We proposed a realistic blur synthesis pipeline to better handle real-world blurred images. We also presented the [RSBlur](https://paperswithcode.com/sota/deblurring-on-rsblur){:target="_blank"} dataset to analyze the differences between synthetic and real blurred images. 

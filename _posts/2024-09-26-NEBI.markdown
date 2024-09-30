@@ -11,3 +11,4 @@ project: https://postech-cvlab.github.io/Burst_FSN/
 paper: https://arxiv.org/pdf/2406.17869
 ---
 
+Recently, using images with different exposures is being investigated for tasks such as deblurring, denoising, and HDR (<i>e.g.</i>, BracketIRE). We explored non-uniform exposure settings for the burst SR task. We found that the restoration performance can be affected by the selection of the base frame and proposed a base frame selection network.

@@ -10,5 +10,7 @@ venue: "CVPR, 2023"
 project: http://cg.postech.ac.kr/research/ExLPose/
 paper: http://cg.postech.ac.kr/research/ExLPose/assets/pdf/human_pose_estimation_in_extre-Camera-ready%20PDF.pdf
 code: https://github.com/sohyun-l/ExLPose
+highlight: true
 ---
 
+We proposed the [ExLPose](https://mmpose.readthedocs.io/en/latest/dataset_zoo/2d_body_keypoint.html#exlpose-dataset){:target="_blank"} dataset and a novel method for human pose estimation in extremely low-light conditions.

@@ -10,5 +10,7 @@ venue: "ECCV, 2020"
 project: http://cg.postech.ac.kr/research/realblur/
 paper: http://cg.postech.ac.kr/research/RealBlur/assets/pdf/RealBlur_eccv2020.pdf
 code: https://github.com/rimchang/RealBlur
+highlight: true
 ---
 
+We proposed the [RealBlur](https://paperswithcode.com/sota/deblurring-on-realblur-j-1){:target="_blank"} dataset, which is the first real-world blur dataset. The proposed dataset is now utilized as a standard benchmark. 
