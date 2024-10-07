@@ -13,4 +13,4 @@ code: https://github.com/rimchang/RSBlur
 highlight: true
 ---
 
-Deblurring networks trained on synthetic datasets do not perform well on real-world images. We proposed the [RSBlur](https://paperswithcode.com/sota/deblurring-on-rsblur){:target="_blank"} dataset and a realistic blur synthesis pipeline to better handle real-world blurred images.
+Deblurring networks trained on synthetic datasets often struggle with real-world images. To better handle real-world blurred images, we analyzed the differences between real and synthetic blur on the [RSBlur](https://cg.postech.ac.kr/research/rsblur/#download){:target="_blank"} dataset and proposed a realistic blur synthesis pipeline that includes a camera ISP simulation.

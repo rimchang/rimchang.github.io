@@ -13,4 +13,4 @@ code: https://github.com/sohyun-l/ExLPose
 highlight: true
 ---
 
-We proposed the [ExLPose](https://mmpose.readthedocs.io/en/latest/dataset_zoo/2d_body_keypoint.html#exlpose-dataset){:target="_blank"} dataset and a novel method for human pose estimation in extremely low-light conditions.
+We proposed the [ExLPose](https://cg.postech.ac.kr/research/ExLPose/#download){:target="_blank"} dataset, which provides pairs of well-lit and low-light images along with their pose labels. We presented a novel method utilizing the knowledge from both images.
