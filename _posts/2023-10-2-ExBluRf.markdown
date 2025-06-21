@@ -8,5 +8,6 @@ author: "Jaesung Rim"
 authors: "Dongwoo Lee, Jeongtaek Oh, <strong>Jaesung Rim</strong>, Sunghyun Cho, Kyoung Mu Lee"
 venue: "ICCV, 2023"
 paper: https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_ExBluRF_Efficient_Radiance_Fields_for_Extreme_Motion_Blurred_Images_ICCV_2023_paper.pdf
+code: https://github.com/taekkii/ExBluRF
 ---
 

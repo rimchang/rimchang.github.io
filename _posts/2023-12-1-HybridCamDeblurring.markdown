@@ -13,4 +13,4 @@ code: https://github.com/rimchang/HCDeblur
 highlight: true
 ---
 
-We proposed a novel deblurring framework that simultaneously utilizes wide and ultra-wide cameras on smartphones. For training and evaluation, we collected the [HCBlur](https://cg.postech.ac.kr/research/HCDeblur/#download){:target="_blank"} dataset using a real smartphone.
+We proposed a novel deblurring framework that simultaneously utilizes wide and ultra-wide cameras on smartphones. For training and evaluation, we collected the [HCBlur](https://cg.postech.ac.kr/research/HCDeblur/#download){:target="_blank"} dataset using iPhone 13 Pro Max.
