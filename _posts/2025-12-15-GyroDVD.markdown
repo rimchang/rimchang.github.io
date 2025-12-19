@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Gyro-based Deep Video Deblurring"
+date:   2025-12-16 22:21:59 +00:00
+image: /images/GyroDVD.png
+categories: research
+author: "Jaesung Rim"
+authors: "<strong>Jaesung Rim</strong>, Woohyeok Kim, Haeyun Lee, Heemin Yang, Ke Wang, Sunghyun Cho"
+venue: "Under review, 2025"
+highlight: true
+---
+
+We proposed the first learning-based methods for gyro-based video deblurring. For training and evaluation, we collected the GyroVD dataset using GP 9 Pro XL.
+
