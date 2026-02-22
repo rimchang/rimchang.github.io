@@ -7,8 +7,8 @@ categories: research
 author: "Jaesung Rim"
 authors: "<strong>Jaesung Rim</strong>, Geonung Kim, Jungeon Kim, Junyong Lee, Seungyong Lee, Sunghyun Cho"
 venue: "ECCV, 2022"
-project: http://cg.postech.ac.kr/research/rsblur
-paper: http://cg.postech.ac.kr/research/rsblur/assets/pdf/RSBlur.pdf
+project: http://cg.postech.ac.kr/research/RSBlur
+paper: http://cg.postech.ac.kr/research/RSBlur/assets/pdf/RSBlur.pdf
 code: https://github.com/rimchang/RSBlur
 highlight: true
 ---

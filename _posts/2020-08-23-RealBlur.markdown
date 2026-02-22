@@ -7,10 +7,10 @@ categories: research
 author: "Jaesung Rim"
 authors: "<strong>Jaesung Rim</strong>, Haeyun Lee, Jucheol Won, Sunghyun Cho"
 venue: "ECCV, 2020"
-project: http://cg.postech.ac.kr/research/realblur/
+project: http://cg.postech.ac.kr/research/RealBlur/
 paper: http://cg.postech.ac.kr/research/RealBlur/assets/pdf/RealBlur_eccv2020.pdf
 code: https://github.com/rimchang/RealBlur
 highlight: true
 ---
 
-We proposed the [RealBlur](https://cg.postech.ac.kr/research/RealBlur/#download){:target="_blank"} dataset, which is the first real-world blur dataset for learning-based methods. This dataset is now utilized as a standard [benchmark](https://paperswithcode.com/sota/deblurring-on-realblur-j-1){:target="_blank"}. 
+We proposed the [RealBlur](https://cg.postech.ac.kr/research/RealBlur/#download){:target="_blank"} dataset, which is the first real-world blur dataset for learning-based methods. This dataset is now utilized as a standard benchmark. 
