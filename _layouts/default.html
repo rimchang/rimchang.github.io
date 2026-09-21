@@ -96,11 +96,9 @@
 			<b><a href="https://cg.postech.ac.kr/research/HCDeblur/#download" target="_blank">HCBlur</a></b>: A dual-camera blur dataset captured with iPhone 13 Pro Max.
 		  </li>
         <li style="margin-bottom: 4px;">
-			<b>GyroVD</b>: The first dataset for learning-based gyro-based video deblurring.
-            <ul style="margin-top: 2px; padding-left: 16px;">
-				<li>GyroVD will be made publicly available upon acceptance of the paper.</li>
-			</ul>
+			<b><a href="https://github.com/rimchang/GyroDVD" target="_blank">GyroVD</a></b>: The first dataset for learning-based gyro-based video deblurring.
         </li>
+        </ul>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
@@ -110,7 +108,10 @@
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
+          {% assign ordered_posts = site.posts | where_exp: "post", "post.publication_order != nil" | sort: "publication_order" %}
+          {% assign other_posts = site.posts | where_exp: "post", "post.publication_order == nil" %}
+          {% assign publications = ordered_posts | concat: other_posts %}
+          {% for post in publications %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           {% if post.highlight %}
@@ -119,13 +120,15 @@
           <tr>
           {% endif %}
             <td style="padding:2.5%;width:30%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              {% if post.image %}
+              <img src="{{post.image}}" alt="{{ post.title | escape }}" style="width:auto; height:auto; max-width:100%;" />
+              {% endif %}
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               {% if post.paper %}
               <a href="{{post.paper}}"><h3>{{post.title}}</h3></a>
               {% else %}
-              <a><h3>{{post.title}}</h3></a>
+              <h3>{{post.title}}</h3>
               {% endif %}
               
               <br>
@@ -138,11 +141,11 @@
               <a href="{{post.paper}}">Paper</a>
               {% endif %}
               {% if post.project %}
-               /
+              {% if post.paper %} / {% endif %}
               <a href="{{post.project}}">Project</a>
               {% endif %}
               {% if post.code %}
-               /
+              {% if post.paper or post.project %} / {% endif %}
               <a href="{{post.code}}">Code</a> 
               {% endif %}
               <p></p>
@@ -167,9 +170,9 @@
           <tr>
             <td style="padding:20px;width:12%;vertical-align:middle"><img src="images/huawei.jpeg" width="120%"></td>
             <td width="75%" valign="center">
-			  <h3>Huawei Finland Research Center</h3>
+			  <h3>Huawei Singapore</h3>
 			  <br>
-              2024/05/06 ~ 2024/08/31: Research Intern at Camera AI Solutions Team
+              2026/03 ~ Present: AI Engineer Camera ISP
             </td>
           </tr>			
         </tbody></table>

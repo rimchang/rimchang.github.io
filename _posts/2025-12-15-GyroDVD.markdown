@@ -7,6 +7,10 @@ categories: research
 author: "Jaesung Rim"
 authors: "<strong>Jaesung Rim</strong>, Woohyeok Kim, Haeyun Lee, Heemin Yang, Ke Wang, Sunghyun Cho"
 venue: "CVPR, 2026"
+paper: https://cg.postech.ac.kr/researches/GyroDVD/
+project: https://cg.postech.ac.kr/researches/GyroDVD/
+code: https://github.com/rimchang/GyroDVD
+publication_order: 1
 highlight: true
 ---
 

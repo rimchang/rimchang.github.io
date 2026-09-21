@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Towards Unified Image Deblurring using a Mixture-of-Experts Decoder"
+image: https://raw.githubusercontent.com/cidautai/DeMoE/main/assets/teaser_demoe.png
+categories: research
+author: "Jaesung Rim"
+authors: "Daniel Feijoo, Paula Garrido-Mellado, <strong>Jaesung Rim</strong>, Alvaro Garcia, Marcos V. Conde"
+venue: "LoViF CVPRW, 2026"
+code: https://github.com/cidautai/DeMoE
+publication_order: 3
+highlight: false
+---
