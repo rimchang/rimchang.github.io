@@ -6,6 +6,7 @@ categories: research
 author: "Jaesung Rim"
 authors: "Daniel Feijoo, Paula Garrido-Mellado, <strong>Jaesung Rim</strong>, Alvaro Garcia, Marcos V. Conde"
 venue: "LoViF CVPRW, 2026"
+paper: https://arxiv.org/abs/2508.06228
 code: https://github.com/cidautai/DeMoE
 publication_order: 3
 highlight: false
