@@ -15,5 +15,5 @@ publication_order: 1
 highlight: true
 ---
 
-We proposed the first learning-based methods for gyro-based video deblurring. For training and evaluation, we collected the GyroVD dataset using GP 9 Pro XL.
+We proposed the first learning-based methods for gyro-based video deblurring. For training and evaluation, we collected the [GyroVD](https://github.com/rimchang/GyroDVD#dataset-hugging-face) dataset using GP 9 Pro XL.
 

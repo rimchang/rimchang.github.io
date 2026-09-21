@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dynamic Exposure Burst Image Restoration"
-image: /images/DEBIR_thumb.jpg
+image: /images/DEBIR_thumb.png
 categories: research
 author: "Jaesung Rim"
 authors: "Woohyeok Kim, <strong>Jaesung Rim</strong>, Daeyeon Kim, Sunghyun Cho"
